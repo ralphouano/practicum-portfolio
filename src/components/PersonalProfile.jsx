@@ -44,7 +44,7 @@ const PersonalProfile = () => {
                   <h3 className="text-2xl font-bold text-white">About Me</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed mb-6">
-                  I am a passionate aspiring Full-Stack Developer dedicated to crafting intuitive and visually stunning web experiences.
+                  I am a passionate aspiring Full-Stack Web Developer dedicated to crafting intuitive and visually stunning web experiences.
                   Currently undergoing my practicum, I am focused on bridging the gap between theoretical knowledge and real-world application.
                   My goal is to build scalable, accessible, and performant applications that solve real problems.
                 </p>
@@ -52,7 +52,7 @@ const PersonalProfile = () => {
                 <div className="space-y-4 flex flex-col items-center md:items-start">
                   <div className="flex items-center gap-3 text-text-secondary">
                     <Briefcase size={18} className="text-accent" />
-                    <span>Aspiring Full-Stack Developer</span>
+                    <span>Aspiring Full-Stack Web Developer</span>
                   </div>
                   <div className="flex items-center gap-3 text-text-secondary">
                     <GraduationCap size={18} className="text-accent" />
@@ -98,7 +98,7 @@ const PersonalProfile = () => {
                   <div className="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-accent border-4 border-surface"></div>
                   <h4 className="text-lg font-semibold text-white">Bachelor of Science in Information Technology</h4>
                   <p className="text-primary text-sm mb-1">2022 - Present</p>
-                  <p className="text-text-secondary text-sm">Saint Columban College, Pagadian City</p>
+                  <p className="text-text-secondary text-sm">Saint Columban College - College of Computing Studies</p>
                 </div>
               </div>
             </div>

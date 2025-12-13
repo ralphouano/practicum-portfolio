@@ -8,10 +8,10 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                     <div className="col-span-1 md:col-span-1">
                         <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-4 block">
-                            Practicum<span className="text-white">.</span>
+                            Ralph Ouano<span className="text-white">.</span>
                         </span>
                         <p className="text-text-secondary text-sm leading-relaxed">
-                            A personal portfolio documenting my journey as a Full-Stack Developer Intern.
+                            A personal portfolio documenting my journey as a Full-Stack Web Developer Intern.
                             Built with React, Tailwind CSS, and a passion for clean code.
                         </p>
                     </div>
@@ -22,6 +22,7 @@ const Footer = () => {
                             <li><a href="#hero" className="hover:text-primary transition-colors">Home</a></li>
                             <li><a href="#profile" className="hover:text-primary transition-colors">Profile</a></li>
                             <li><a href="#preparation" className="hover:text-primary transition-colors">Preparation</a></li>
+                            <li><a href="#gallery" className="hover:text-primary transition-colors">Gallery</a></li>
                             <li><a href="#blog" className="hover:text-primary transition-colors">Journal</a></li>
                         </ul>
                     </div>
@@ -44,7 +45,7 @@ const Footer = () => {
 
                 <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-text-muted text-sm">
-                        &copy; {new Date().getFullYear()} Student Name. All rights reserved.
+                        &copy; {new Date().getFullYear()} Ralph Ouano. All rights reserved.
                     </p>
                     <p className="text-text-muted text-sm flex items-center gap-1">
                         Made with <Heart size={14} className="text-red-500 fill-red-500" /> during Practicum

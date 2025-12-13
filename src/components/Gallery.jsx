@@ -5,37 +5,37 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-      caption: "Late Night Coding Session",
-      category: "Work"
-    },
-    {
-      id: 2,
-      url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
-      caption: "Team Brainstorming",
-      category: "Team"
-    },
-    {
-      id: 3,
-      url: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80",
-      caption: "Project Planning",
+      url: "/images/orientation.jpg",
+      caption: "Orientation",
       category: "Meeting"
     },
     {
+      id: 2,
+      url: "/images/first-task.jpg",
+      caption: "First Task",
+      category: "Work"
+    },
+    {
+      id: 3,
+      url: "/images/first-task-complete.jpg",
+      caption: "First Task Complete",
+      category: "Work"
+    },
+    {
       id: 4,
-      url: "https://images.unsplash.com/photo-1504384308090-c54be3855833?auto=format&fit=crop&w=800&q=80",
+      url: "",
       caption: "Office Setup",
       category: "Workspace"
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+      url: "",
       caption: "Coffee Break",
       category: "Lifestyle"
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
+      url: "",
       caption: "Client Presentation",
       category: "Work"
     }
