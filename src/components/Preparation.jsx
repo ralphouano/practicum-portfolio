@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Calendar, FileText, MonitorPlay, BookOpen, Users, Briefcase } from 'lucide-react';
+import { FileText, BookOpen, Users, Briefcase } from 'lucide-react';
 
 const Preparation = () => {
   const steps = [
@@ -26,6 +26,30 @@ const Preparation = () => {
       date: "Dec. 12, 2025",
       icon: <Briefcase size={20} />,
       description: "Started our first day at SSS Pagadian branch."
+    },
+    {
+      title: "Mid-Practicum Progress Check",
+      date: "Feb. 19, 2026",
+      icon: <Users size={20} />,
+      description: "Handled both client-facing and backend documentation tasks with improved confidence and consistency."
+    },
+    {
+      title: "Transmittal and Documentation Focus",
+      date: "Mar. 16, 2026",
+      icon: <FileText size={20} />,
+      description: "Strengthened encoding accuracy, document organization, and coordination with the team during busy periods."
+    },
+    {
+      title: "500 Hours Completed",
+      date: "Apr. 23, 2026",
+      icon: <Briefcase size={20} />,
+      description: "Successfully completed the required 500 practicum hours while maintaining accurate records and client support."
+    },
+    {
+      title: "System Turnover",
+      date: "Apr. 29, 2026",
+      icon: <FileText size={20} />,
+      description: "Final turnover of our system and related deliverables after completion of internship hour requirements."
     }
   ];
 
