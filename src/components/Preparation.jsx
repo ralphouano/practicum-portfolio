@@ -47,7 +47,7 @@ const Preparation = () => {
     },
     {
       title: "System Turnover",
-      date: "Apr. 29, 2026",
+      date: "Apr. 30, 2026",
       icon: <FileText size={20} />,
       description: "Final turnover of our system and related deliverables after completion of internship hour requirements."
     }
